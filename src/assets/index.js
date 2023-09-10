@@ -25,6 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Udghosh from "./company/udghosh-removebg-preview.png";
+import gamedev from "./company/Gamedev_Logo.png";
+import esports from "./company/esports.png";
+import smss from "./company/SMSS_logo_Black.png"
+import bs1 from "./company/Bs1.png"
+import puzzlerunner from "./company/Screenshot (54).png"
+import neo from "./company/neo1.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,6 +64,13 @@ export {
   starbucks,
   tesla,
   carrent,
+  Udghosh,
+  gamedev,
+  esports,
+  smss,
   jobit,
   tripguide,
+  bs1,
+  puzzlerunner,
+  neo,
 };

@@ -47,11 +47,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        <p>I am a passionate Junior year Under Graduate at Indian Institute of Technology Kanpur, specializing in Mechanical Engineering.</p>
+        <br></br>
+        <p>I have excelled in my studies and beyond receiving best Technical project award as a intern at  Smart Materials, Structures and Systems (SMSS) Lab for development of back end for Social robot</p>
+        <br></br>
+        <p>Currently, I am coordinator for Game Development Club of IIT Kanpur, Leading a 3-tier team of 30 plus members to organize club events and workshops for campus students as well as develop games and participate in Competitions. I also have experience in development of framework for robot using ROS2 in python.</p>
+        <br></br>
+        <p>Along with these , I have also been a part of Udghosh'22 Events Team and Esports society IIT Kanpur. I have been part of organizing and management of multiple events with participation over 500 students. </p>
+        <br></br>
+        <p>With a strong foundation in programming languages like C, C++, Python, and C#, as well as leadership and problem-solving skills, I am open to new opportunities and collaborations in Mechanical Engineering and beyond. Let's connect and explore how we can make a positive impact together.</p>
+
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

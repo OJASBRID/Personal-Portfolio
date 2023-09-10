@@ -16,6 +16,10 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  var isDisplay = true;
+  if(name === "Neo")
+    isDisplay = false;
+  
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -35,6 +39,7 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
+              style={{ display: isDisplay ? "" : "none" }}
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >

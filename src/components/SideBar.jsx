@@ -22,13 +22,13 @@ const SideBar = () => {
     >
       <div className='h-screen sticky left-0 top-0 bg-[#080808] z-[100] flex flex-col items-center overflow-y-hidden'>
         <span className='flex flex-shrink-0 h-[45px] w-[45px] items-center justify-center my-[12.5px]'>
-          <Link to={'/~rishira21/'}
+          <Link to={'/Personal-Portfolio/'}
             onClick={() => {
               window.scrollTo(0, 0);
             }}
           >
             <span className='text-[2.2rem] font-black text-3xl flex flex-shrink-0 w-[45px] h-[45px] items-center justify-center bg-[#111111] rounded-[4px]'>
-              R
+              O
               <span className='text-[#0aff9d]'>.</span>
             </span>
           </Link>
